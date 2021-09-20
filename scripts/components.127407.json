@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "name": "hero",
+      "display_name": null,
+      "created_at": "2021-09-20T18:05:51.331Z",
+      "updated_at": "2021-09-20T18:41:56.440Z",
+      "id": 1800507,
+      "schema": {
+        "image": {
+          "type": "asset",
+          "max_length": "",
+          "filetypes": [
+            "images",
+            "videos"
+          ]
+        },
+        "text": {
+          "type": "text",
+          "required": true
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "hero",
+      "component_group_uuid": "30ac2dfc-90e0-4804-9bea-7474afed67d3",
+      "color": null,
+      "icon": null,
+      "component_group_name": "Top Level Components"
+    },
+    {
+      "name": "page",
+      "display_name": "Page",
+      "created_at": "2021-09-20T13:32:13.183Z",
+      "updated_at": "2021-09-20T18:38:57.501Z",
+      "id": 1799671,
+      "schema": {
+        "hero": {
+          "type": "bloks",
+          "pos": 0,
+          "filetypes": [
+            "images"
+          ],
+          "required": true,
+          "restrict_components": true,
+          "component_whitelist": [
+            "hero"
+          ]
+        },
+        "content": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "Page",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    }
+  ]
+}

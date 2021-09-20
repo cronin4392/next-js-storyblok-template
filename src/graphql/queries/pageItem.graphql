@@ -1,0 +1,9 @@
+query pageItem($slug: ID!) {
+  PageItem(id: $slug) {
+    content {
+      hero
+      _editable
+    }
+    uuid
+  }
+}

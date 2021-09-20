@@ -1,0 +1,10 @@
+query pageItems($perPage: Int) {
+  PageItems(per_page: $perPage) {
+    items {
+      uuid
+      full_slug
+      slug
+    }
+    total
+  }
+}
